@@ -1,0 +1,9 @@
+---
+applications:
+- name: capture-the-flag
+  random-route: true
+  memory: 1G
+  path: build/libs/binome1-1.0.jar
+  env:
+    SPRING_PROFILES_ACTIVE: cloud
+    JBP_CONFIG_JMX: '{enabled: true}'
